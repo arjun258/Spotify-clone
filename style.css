@@ -116,7 +116,7 @@
     fill: white;
 
 
-    
+
 }
 
 .side2right svg:hover{
@@ -285,11 +285,18 @@
     background-color:transparent;
     color: var(--para-color);
     font-weight: 600;
+    cursor: pointer;
+}
+.sign-btn:hover{
+    color: white;
 }
 .log-btn{
     color: black;
     font-weight: 600;
-    
+    cursor: pointer;
+}
+.log-btn:hover{
+    transform: scale(1.03);
 }
 
 .song-card-container {
@@ -402,7 +409,7 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 0.2px solid #a7a7a73f;
-    
+    border-radius: 0;
 }
 
 .row-container{
