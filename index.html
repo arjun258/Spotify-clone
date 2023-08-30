@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Web Player: Music for everyone</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="primary-content">
+                <div class="sidebar">
+
+                    <div class="side1">
+                        <div class="home">
+                            <svg role="img" height="24" width="24" aria-hidden="true" class="Svg-sc-ytk21e-0 haNxPq home-active-icon" viewBox="0 0 24 24" data-encore-id="icon"><path d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z"></path></svg>
+                            <div class="sidep">
+                                <p>Home</p>
+                            </div>
+                        </div>
+                        <div class="search">
+                            <svg role="img" height="24" width="24" aria-hidden="true" class="Svg-sc-ytk21e-0 haNxPq search-icon" viewBox="0 0 24 24" data-encore-id="icon"><path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 1 0 1.414-1.414l-4.344-4.344a9.157 9.157 0 0 0 2.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg>
+                            
+                            <div class="sidep">
+                                <p>Search</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="side2">
+                        <div class="side2first">
+                        <div class="side2left">
+                            <svg role="img" height="24" width="24" ><path d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z"></path></svg>
+                            <h3 class = "side2lefth3">Your Library</h3>
+                        </div>
+                        <div class="side2right">
+                            <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z"></path></svg>
+                        </div>
+                    </div>
+                
+                
+                    <div class="side2second">
+                        <div class="playlist-container">
+                            <h3>Create your first playlist</h3>
+                            <p>It's easy, we'll help you</p>
+                            <button class = playlist-btn>Create playlist</button>
+                        </div>
+
+                        <div class="playlist-container"  id = "podcast-container">
+                            <h3>Let's find some podcasts to follow</h3>
+                            <p>We'll keep you updated on new episodes</p>
+                            <button class = "playlist-btn">Browse podcasts</button>
+                        </div>
+
+                    </div>
+                   
+                
+
+
+                <div class="legal-container">
+                    <div class="legal-row-container">
+                        <div class="legal-row">
+                            <p>Legal</p>
+                            <p>Privacy Center</p>
+                            <p>Privacy Policy</p>
+                            <p>Cookies</p>
+                
+                        </div>
+
+                        <div class="legal-row">
+                            <p>About ads</p>
+                            <p>Accessibility</p>
+                        </div>
+                        <div class="legal-row">
+                            <p>Cookies</p>
+
+                        </div>
+                    </div>
+
+                    <div class="btn-container">
+                        <button class="btn">
+                            <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" class="Svg-sc-ytk21e-0 haNxPq"><path d="M8.152 16H8a8 8 0 1 1 .152 0zm-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296zM4.877 7.25c.062-1.771.34-3.386.773-4.624.099-.284.208-.554.329-.806a6.507 6.507 0 0 0-4.436 5.43h3.334zm-3.334 1.5a6.507 6.507 0 0 0 4.436 5.43 7.974 7.974 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624H1.543zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129H6.378zm5.048 0c-.061 1.771-.339 3.386-.772 4.624-.082.235-.171.46-.268.674a6.506 6.506 0 0 0 4.071-5.298h-3.03zm3.031-1.5a6.507 6.507 0 0 0-4.071-5.298c.097.214.186.44.268.674.433 1.238.711 2.853.772 4.624h3.031z"></path></svg>
+                            English
+                        </button>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+
+                <div class="songs-container">
+                    <div class="fixed-login">
+                        <div class="nav-arrow">
+                            <div class="left-arrow">
+                                <svg role="img" height="16" width="16" aria-hidden="true" class="Svg-sc-ytk21e-0 leya-dW IYDlXmBmmUKHveMzIPCF" viewbox="0 0 16 16" data-encore-id="icon">
+                                    <path d="M11.03.47a.75.75 0 0 1 0 1.06L4.56 8l6.47 6.47a.75.75 0 1 1-1.06 1.06L2.44 8 9.97.47a.75.75 0 0 1 1.06 0z"></path>
+                                </svg>
+                            </div>
+
+                            <div class="left-arrow">
+                                <svg role="img" height="16" width="16" aria-hidden="true" class="Svg-sc-ytk21e-0 leya-dW IYDlXmBmmUKHveMzIPCF" viewbox="0 0 16 16" data-encore-id="icon">
+                                    <path d="M4.97.47a.75.75 0 0 0 0 1.06L11.44 8l-6.47 6.47a.75.75 0 1 0 1.06 1.06L13.56 8 6.03.47a.75.75 0 0 0-1.06 0z"></path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="register-container">
+                            <button class="sign-btn">Sign up</button>
+                            <button class="log-btn">Login in</button>
+                        </div>
+                    </div>
+
+                    <!-- fixed login ends -->
+                    <div class="song-card-container">
+
+                        <div class="label">
+                            <h2>Spotify Playlists</h2>
+                            <p>Show all</p>
+                        </div>
+
+                        <div class="card-row">
+                            <div class="card">
+                                <div class="img">
+                                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f0000000264c1526220b3f0a3e88cf8c0" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002b0fe40a6e1692822f5a9d8f1" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f0000000278b4745cb9ce8ffe32daaf7e" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img src="https://i.scdn.co/image/ab67706f0000000261b43bc8c113ab93d6466509">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002f9bdb020583c5c79493f8583" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+                        </div>
+
+                        <div class="label">
+                            <h2>Sleep</h2>
+                            <p>Show all</p>
+                        </div>
+
+                        <div class="card-row">
+                            <div class="card">
+                                <div class="img">
+                                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002d2291e0c5d43a1b21a941031" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+
+                        </div>
+
+                        <div class="label">
+                            <h2>Sound of India</h2>
+                            <p>Show all</p>
+                        </div>
+
+                        <div class="card-row">
+                            <div class="card">
+                                <div class="img">
+                                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002d073e656e546e43bc387ad79" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002d6d48b11fd3b11da654c3519" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002fe24d7084be472288cd6ee6c" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+
+                            <div class="card">
+                                <div class="img">
+                                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002724554ed6bed6f051d9b0bfc" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+
+                            <div class="card">
+                                <div class="img"><img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f0000000296e08a91ef3c7a6e7bfaa9a6" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                                    <div class="play">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-caret-right-fill" viewbox="0 0 16 16">
+                                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <h2>Today's Top Hits</h2>
+                                <p>Selena Gomez is on top of the Hottest 50!</p>
+                            </div>
+                        </div>
+
+
+                        <div class="credits-container">
+                            <div class="row-container">
+                                <div class="row">
+                                    <h3>Company</h3>
+                                    <p>About</p>
+                                    <p>Jobs</p>
+                                    <p>For the Record</p>
+                                </div>
+
+                                <div class="row">
+                                    <h3>Communities</h3>
+                                    <p>For Artists</p>
+                                    <p>Developers</p>
+                                    <p>Advertising</p>
+                                    <p>Investors</p>
+                                    <p>Vendors</p>
+                                </div>
+
+                                <div class="row">
+                                    <h3>Useful links</h3>
+                                        <p>Support</p>
+                                        <p>Free Mobile App</p>
+                                    </div>
+                                </div>
+
+                                <div class="social-row">
+                                    <div class="svg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewbox="0 0 16 16">
+                                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="svg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewbox="0 0 16 16">
+                                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="svg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewbox="0 0 16 16">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="trademark">
+                                <p>© 2023 Spotify AB</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- songs container ends here -->
+                </div>
+                
+
+                <div class="footer">
+                    <div class="left-container">
+                        <p class = "p1">PREVIEW OF SPOTIFY</p>
+                        <p class = "p2">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+                    </div>
+                    <button>Sign up free</button>
+                </div>
+            </div>
+        </body>
+    </body>
+</html>
